@@ -131,6 +131,9 @@ client.connect("broker.emqx.io", 1883, 60)
 client.loop_forever()
 
 ~~~
+##### Instalação do paho-mqtt
+https://www.eclipse.org/paho/index.php?page=clients/python/index.php
+
 ##### Procedimento de Publicação
 ~~~
 # Ensures paho is in PYTHONPATH
