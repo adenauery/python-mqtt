@@ -5,6 +5,11 @@
 
 ### Primeiro Encontro - 07/08/2021 - Prof. Adenauer Yamin
 
+### Projeto Final
+
+* [Visão Geral do Projeto Final](https://docs.google.com/presentation/d/1WLr_SozYkB1iTrH71zghpa4Tljgqp3P9QaTv15OrLP4/)
+
+
 #### Sockets TCP & UDP
 [Introdução ao Conceito de Sockets](http://olaria.ucpel.edu.br/materiais/lib/exe/fetch.php?media=introducao-sockets.pdf)
 
@@ -169,9 +174,4 @@ a=7.15/6.74
 done
 
 ~~~
-
-
-### Projeto Final
-
-* [Visão Geral do Projeto Final](https://docs.google.com/presentation/d/1WLr_SozYkB1iTrH71zghpa4Tljgqp3P9QaTv15OrLP4/)
 
