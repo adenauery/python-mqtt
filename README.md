@@ -57,7 +57,10 @@
 
 #### Instalando os Clientes da Plataforma Mosquitto
 
-* sudo apt install mosquitto-clients
+* Linux:
+  * sudo apt install mosquitto-clients
+* MS-Windows:
+  * https://www.curtocircuito.com.br/blog/Categoria%20IoT/seguranca-no-mqtt
 
 * Testes feitos com o Broker: broker.emqx.io
 
