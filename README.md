@@ -161,6 +161,7 @@ while (contador < 5):
 import paho.mqtt.publish as publish
 import time
 import psutil
+
 # Publica
 
 contador = 0
