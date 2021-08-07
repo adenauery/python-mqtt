@@ -68,7 +68,7 @@
 
 * mosquitto_pub -h broker.emqx.io -t pi4 -m "Primeira Conexao"
 * Envio da data:
-  * mosquitto_pub -h broker.emqx.io -t pi4 -m "`(date)`"
+  * mosquitto_pub -h broker.emqx.io -t pi4 -m "\`(date)\`"
 
 
 #### Publicando com Script Bash em Broker MQTT
