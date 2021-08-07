@@ -34,7 +34,8 @@
 * [Foca Linux](http://www.guiafoca.org/)
 * [Ebooks sobre Sistemas Operacionais Posix](https://drive.google.com/drive/folders/0B2INSZz1E5TlVWdkVFM0OUxKXzA)
 
-* Exemplo de uso do Cron: 
+* Uso do Cron: 
+  * [Como utilizar o Cron no agendamento de tarefas](https://www.infowester.com/linuxcron.php)
   * 0-59/2 * * * * date >> exemplo-pi-iv.txt 
   * A cada 2 minutos o comando é executado
 
