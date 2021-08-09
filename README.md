@@ -89,6 +89,9 @@ done
 
 #### Comunicando com um Broker MQTT utilizando Python
 
+##### Instalação do paho-mqtt
+  * https://www.eclipse.org/paho/index.php?page=clients/python/index.php
+
 ##### Procedimento de Subscrição
 ~~~
 # Cliente Python para subscrever em um Broker MQTT
@@ -126,8 +129,7 @@ client.connect("broker.emqx.io", 1883, 60)
 client.loop_forever()
 
 ~~~
-##### Instalação do paho-mqtt
-https://www.eclipse.org/paho/index.php?page=clients/python/index.php
+
 
 ##### Procedimento de Publicação
 ~~~
@@ -151,6 +153,11 @@ while (contador < 5):
         contador = contador + 1
         time.sleep(2)
 ~~~
+
+###### Instalação do psutil
+
+  * https://pypi.org/project/psutil/
+
 
 ###### Publicação com Laço de Repetição lendo a Ocupação de CPU
 
