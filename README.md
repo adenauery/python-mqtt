@@ -3,7 +3,7 @@
 ### Equipe
 
 
-### Primeiro Encontro - 07/08/2021 - Prof. Adenauer Yamin
+### Primeiro Encontro - 07/08/2021
 
 ### Projeto Final
 
