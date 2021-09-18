@@ -4,7 +4,8 @@
 
 #### URL Base MQTT:
 * mosquitto_sub -h broker.emqx.io -t pi/dados
-
+  * Broker MQTT utilizado: broker.emqx.io
+  * Tópico empregado: pi/dados
 
 
 ### Primeiro Encontro - 07/08/2021
