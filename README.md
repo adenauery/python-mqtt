@@ -8,6 +8,13 @@
   * Tópico empregado: pi/dados
 
 
+#### Python & Postgres
+  * [Python & PostGres](https://www.devmedia.com.br/como-criar-uma-conexao-em-postgresql-com-python/34079)
+  * [Manipulando dados em PostgreSQL com Python](https://dadosaocubo.com/manipulando-dados-em-postgresql-com-python/)
+
+#### Python & MQTT
+  * https://gercil.me/blog/usando-o-pahomqtt-para-python
+
 ### Primeiro Encontro - 07/08/2021
 
 ### Projeto Final
