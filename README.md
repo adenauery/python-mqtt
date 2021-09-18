@@ -1,7 +1,6 @@
 ## Projeto-Integrador-IV-A
 
-### Equipe
-
+### Segundo Encontro - 18/09/2021
 
 ### Primeiro Encontro - 07/08/2021
 
