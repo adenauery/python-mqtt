@@ -2,6 +2,11 @@
 
 ### Segundo Encontro - 18/09/2021
 
+#### URL Base MQTT:
+* mosquitto_sub -h broker.emqx.io -t pi/dados
+
+
+
 ### Primeiro Encontro - 07/08/2021
 
 ### Projeto Final
