@@ -15,6 +15,9 @@
 #### Python & MQTT
   * https://gercil.me/blog/usando-o-pahomqtt-para-python
 
+#### Tutorial sobre o GitHub
+  * [Material sobre GitHub da FullCycle](https://fullcycle.com.br/git-e-github/) - [site da FullCycle](https://fullcycle.com.br/)
+
 ### Primeiro Encontro - 07/08/2021
 
 ### Projeto Final
