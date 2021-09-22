@@ -12,6 +12,9 @@
     * cpu1: ocupação da CPU do servidor a cada 10 minutos
     * dolar: cotação do dolar a cada hora cheia
 
+#### Instalando o Postgresql & PHPpgadmin
+* [TechExpert](https://techexpert.tips/pt-br/postgresql-pt-br/instalar-phppgadmin-no-ubuntu-linux/)
+* [Bóson](http://www.bosontreinamentos.com.br/postgresql-banco-dados/instalacao-do-postgresql-e-do-phppgadmin-no-linux/)
 
 #### Python & Postgres
   * [Python & PostGres](https://www.devmedia.com.br/como-criar-uma-conexao-em-postgresql-com-python/34079)
