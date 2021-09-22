@@ -2,7 +2,7 @@
 
 ### Segundo Encontro - 18/09/2021
 
-#### URL Base MQTT:
+#### URL Base MQTT e dados para teste
 * mosquitto_sub -h broker.emqx.io -t pi/dados
   * Broker MQTT utilizado: broker.emqx.io
   * Tópico empregado: pi/dados
