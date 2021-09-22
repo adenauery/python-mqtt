@@ -10,7 +10,7 @@
     * Temp1: sensor exposto a radiação solar a cada 10 minutos
     * Temp2: sensor na sombra a cada 10 minutos
     * cpu1: ocupação da CPU do servidor a cada 10 minutos
-    * dolar: cotação do dolar a cada hora cheia
+    * dolar: cotação do dolar a cada hora cheia (vide o programa **publica-moedas-mqtt.py**)
 
 #### Instalando o Postgresql & PHPpgadmin
 * [TechExpert](https://techexpert.tips/pt-br/postgresql-pt-br/instalar-phppgadmin-no-ubuntu-linux/)
