@@ -6,6 +6,11 @@
 * mosquitto_sub -h broker.emqx.io -t pi/dados
   * Broker MQTT utilizado: broker.emqx.io
   * Tópico empregado: pi/dados
+  * Dados postados por Adenauer 24 h x 7:
+    * Temp1: sensor exposto a radiação solar a cada 10 minutos
+    * Temp2: sensor na sombra a cada 10 minutos
+    * cpu1: ocupação da CPU do servidor a cada 10 minutos
+    * dolar: cotação do dolar a cada hora cheia
 
 
 #### Python & Postgres
