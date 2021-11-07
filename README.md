@@ -21,7 +21,7 @@
 * [Ebooks sobre Sistemas Operacionais Posix](https://drive.google.com/drive/folders/0B2INSZz1E5TlVWdkVFM0OUxKXzA)
 
 * Uso do Cron: 
-  * [Como utilizar o Cron no agendamento de tarefas](https://www.infowester.com/linuxcron.php)
+  * [Como utilizar o Cron no agendamento de tarefas no Linux](https://www.infowester.com/linuxcron.php)
   * 0-59/2 * * * * date >> exemplo-pi-iv.txt 
   * A cada 2 minutos o comando é executado
 
