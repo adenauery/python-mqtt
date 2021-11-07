@@ -10,9 +10,6 @@
 #### Python & MQTT
   * https://gercil.me/blog/usando-o-pahomqtt-para-python
 
-#### Embarcados para IoT
-* [System on a Chip ESP32S](http://olaria.ucpel.edu.br/micropython/doku.php?id=esp32) -- [Ofertas Mercado Livre](https://eletronicos.mercadolivre.com.br/componentes/esp32)
-* [Sensor de Temperatura DS18b20](https://www.maximintegrated.com/en/products/sensors/DS18B20.html) -- [Ofertas Mercado Livre](https://lista.mercadolivre.com.br/ds18b20#D[A:ds18b20])
 
 #### Monitorando Informações do Equipamento
 [Integrando Bash com Python](http://olaria.ucpel.edu.br/materiais/doku.php?id=integrando-bash-python)
