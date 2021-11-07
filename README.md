@@ -1,48 +1,14 @@
-## Projeto-Integrador-IV-A
-
-### Segundo Encontro - 18/09/2021
+## Python & MQTT
 
 #### URL Base MQTT e dados para teste
 * mosquitto_sub -h broker.emqx.io -t pi/dados
   * Broker MQTT utilizado: broker.emqx.io
   * Tópico empregado: pi/dados
   * Dados postados por origem: adenauer 24 h x 7:
-    * Temp1: sensor exposto a radiação solar a cada 10 minutos
-    * Temp2: sensor na sombra a cada 10 minutos
-    * cpu1: ocupação da CPU do servidor a cada 10 minutos
     * dolar: cotação do dolar a cada hora cheia (vide o programa **publica-moedas-mqtt.py**)
-
-#### Instalando o Postgresql & PHPpgadmin
-* [TechExpert](https://techexpert.tips/pt-br/postgresql-pt-br/instalar-phppgadmin-no-ubuntu-linux/)
-* [Bóson](http://www.bosontreinamentos.com.br/postgresql-banco-dados/instalacao-do-postgresql-e-do-phppgadmin-no-linux/)
-
-#### Python & Postgres
-  * [Python & PostGres](https://www.devmedia.com.br/como-criar-uma-conexao-em-postgresql-com-python/34079)
-  * [Manipulando dados em PostgreSQL com Python](https://dadosaocubo.com/manipulando-dados-em-postgresql-com-python/)
 
 #### Python & MQTT
   * https://gercil.me/blog/usando-o-pahomqtt-para-python
-
-#### Tutorial sobre o GitHub
-  * [Material sobre GitHub da FullCycle](https://fullcycle.com.br/git-e-github/) - [site da FullCycle](https://fullcycle.com.br/)
-
-### Primeiro Encontro - 07/08/2021
-
-### Projeto Final
-
-* [Visão Geral do Projeto Final](https://docs.google.com/presentation/d/1WLr_SozYkB1iTrH71zghpa4Tljgqp3P9QaTv15OrLP4/)
-
-
-#### Sockets TCP & UDP
-[Introdução ao Conceito de Sockets](http://olaria.ucpel.edu.br/materiais/lib/exe/fetch.php?media=introducao-sockets.pdf)
-
-#### Conceitos Relacionados à IoT:
-* [Slides](http://olaria.ucpel.edu.br/materiais/lib/exe/fetch.php?media=internet_das_coisas.pdf)
-* [IoT Comic Book](https://iotcomicbook.org/)
-* [Fog & Cloud](http://olaria.ucpel.edu.br/materiais/lib/exe/fetch.php?media=apresentacao-pi-iv.pdf)
-
-#### Plataformas de Nuvem para IoT
-* [Relação de Serviços](http://olaria.ucpel.edu.br/materiais/doku.php?id=plataformas_nuvem_iot)
 
 #### Embarcados para IoT
 * [System on a Chip ESP32S](http://olaria.ucpel.edu.br/micropython/doku.php?id=esp32) -- [Ofertas Mercado Livre](https://eletronicos.mercadolivre.com.br/componentes/esp32)
@@ -62,10 +28,6 @@
   * 0-59/2 * * * * date >> exemplo-pi-iv.txt 
   * A cada 2 minutos o comando é executado
 
-#### Virtualizando
-* [Virtual Box](https://www.virtualbox.org/)
-* [Linux Mint](https://linuxmint.com/)
-
 #### Transmitindo Informações Sensoriadas do Meio para um Servidor
   * Conceitos
     * [Protocolo MQTT - Material IBM](https://www.ibm.com/developerworks/br/library/iot-mqtt-why-good-for-iot/index.html)
@@ -76,35 +38,6 @@
     * [Mosquitto da Eclipse Foundation](https://mosquitto.org)
     * [Brokers MQTT gratuitos e pagos para utilizar em projetos da IoT](https://diyprojects.io/8-online-mqtt-brokers-iot-connected-objects-cloud/#.XzfHmEl7nUI)
     * [Explorando o uso de MQTT em Programas Python](https://fazbe.github.io/Usando-o-paho-mqtt-para-Python/)
-
-
-#### Instalando os Clientes da Plataforma Mosquitto
-
-* Linux:
-  * sudo apt install mosquitto-clients
-* MS-Windows:
-  * https://www.curtocircuito.com.br/blog/Categoria%20IoT/seguranca-no-mqtt
-
-* Testes feitos com o Broker: broker.emqx.io
-
-* mosquitto_sub -h broker.emqx.io -t pi4
-
-* mosquitto_pub -h broker.emqx.io -t pi4 -m "Primeira Conexao"
-* Envio da data:
-  * mosquitto_pub -h broker.emqx.io -t pi4 -m "\`(date)\`"
-
-
-#### Publicando com Script Bash em Broker MQTT
-~~~
-#!/bin/bash
-contador=1
-while [ $contador -le 10 ]
-do
-        mosquitto_pub -h broker.emqx.io -t pi4 -m $contador
-        sleep 3
-        let contador=contador+1
-done
-~~~
 
 #### Linguagem Python
 * [Aprenda Programar - PythonBrasil](https://wiki.python.org.br/AprendaProgramar)
